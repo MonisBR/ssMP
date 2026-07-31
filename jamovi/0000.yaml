@@ -1,0 +1,25 @@
+---
+title: Sample Size Calculator
+name: ssMP
+version: 1.0.0
+jms: '1.0'
+authors:
+  - Monica Ballesta
+  - Isabel M. Timon
+maintainer: Monica Ballesta <monica.ballesta@um.es>
+date: '2025-01-01'
+type: R
+description: >-
+  Sample size calculator for studies involving means and proportions, including
+  one-sample and independent-sample designs.
+analyses:
+  - title: Sample Size Calculator
+    name: ssMP
+    ns: ssMP
+    category: analyses
+    menuGroup: Exploration
+    menuTitle: Sample Size Calculator
+usesNative: true
+minApp: 1.0.8
+
+...

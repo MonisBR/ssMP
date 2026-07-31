@@ -1,0 +1,124 @@
+name: ssMP
+title: Sample Size Calculator
+stage: 0
+
+children:
+  - type: LayoutBox
+    margin: large
+    children:
+    - type: Label
+      label: "Required sample size for estimating means and proportions. Desing effect = 1"
+      
+  - type: LayoutBox
+    margin: large
+    children:
+    - type: ComboBox
+      name: tipo
+
+  - type: CollapseBox
+    name: oneMeanBox
+    label: "One-Sample Mean"
+    collapsed: false
+    children:
+      - type: TextBox
+        name: e_OM
+        format: number
+
+      - type: TextBox
+        name: S
+        format: number
+
+      - type: TextBox
+        name: level_OM
+        format: number
+
+  - type: CollapseBox
+    name: oneProportionBox
+    label: "One-Sample Proportion"
+    collapsed: false
+    children:      
+      - type: TextBox
+        name: e_OP
+        format: number
+
+      - type: TextBox
+        name: P
+        format: number
+
+      - type: TextBox
+        name: level_OP
+        format: number
+
+  - type: CollapseBox
+    name: independentMeansBox
+    label: "Two Independent Means (different variances)"
+    collapsed: false
+    children:        
+      - type: TextBox
+        name: pow_IM
+        format: number
+
+      - type: TextBox
+        name: dif_IM
+        format: number
+
+      - type: TextBox
+        name: S1
+        format: number
+        
+      - type: TextBox
+        name: S2
+        format: number
+
+      - type: TextBox
+        name: level_IM
+        format: number
+
+  - type: CollapseBox
+    name: pairedMeansBox
+    label: "Two Independent Means (common variances)"
+    collapsed: false
+    children:        
+      - type: TextBox
+        name: pow_PM
+        format: number
+
+      - type: TextBox
+        name: dif_PM
+        format: number
+
+      - type: TextBox
+        name: SC
+        format: number
+
+      - type: TextBox
+        name: level_PM
+        format: number
+
+  - type: CollapseBox
+    name: independentProportionsBox
+    label: "Two Independent Proportions"
+    collapsed: false
+    children: 
+      - type: TextBox
+        name: pow_IP
+        format: number
+
+      - type: TextBox
+        name: dif_IP
+        format: number
+        
+      - type: TextBox
+        name: P1
+        format: number
+        
+      - type: TextBox
+        name: P2
+        format: number
+
+      - type: TextBox
+        name: level_IP
+        format: number
+
+compilerMode: tame
+jus: '3.0'

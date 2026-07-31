@@ -1,0 +1,12 @@
+Package: ssMP
+Type: Package
+Title: Sample Size Module for jamovi
+Version: 1.0.0
+Author: Monica Ballesta & Isabel M. Timón
+Maintainer: Monica Ballesta <monica.ballesta@um.es>
+Description: Calculate sample sizes for estimation means and proportions. Independent samples
+License: GPL (>= 2)
+Encoding: UTF-8
+LazyData: true
+Imports:
+    jmvcore
