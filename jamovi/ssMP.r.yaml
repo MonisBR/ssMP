@@ -60,7 +60,7 @@ items:
         title: Value
         type: text
 
-  # 5. Dos proporcionesTwo proportions (Chi-Square)
+  # 5. Two proportions (Chi-Square)
   - name: tableIP
     title: Sample Size for Two Independent Proportions
     type: Table
