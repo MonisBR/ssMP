@@ -21,7 +21,7 @@ children:
     collapsed: false
     children:
       - type: TextBox
-        name: e_OM
+        name: precision_OM
         format: number
 
       - type: TextBox
@@ -38,7 +38,7 @@ children:
     collapsed: false
     children:      
       - type: TextBox
-        name: e_OP
+        name: precision_OP
         format: number
 
       - type: TextBox
@@ -55,11 +55,11 @@ children:
     collapsed: false
     children:        
       - type: TextBox
-        name: pow_IM
+        name: power_IM
         format: number
 
       - type: TextBox
-        name: dif_IM
+        name: diff_IM
         format: number
 
       - type: TextBox
@@ -80,11 +80,11 @@ children:
     collapsed: false
     children:        
       - type: TextBox
-        name: pow_PM
+        name: power_IMSC
         format: number
 
       - type: TextBox
-        name: dif_PM
+        name: diff_IMSC
         format: number
 
       - type: TextBox
@@ -92,7 +92,7 @@ children:
         format: number
 
       - type: TextBox
-        name: level_PM
+        name: level_IMSC
         format: number
 
   - type: CollapseBox
@@ -101,11 +101,11 @@ children:
     collapsed: false
     children: 
       - type: TextBox
-        name: pow_IP
+        name: power_IP
         format: number
 
       - type: TextBox
-        name: dif_IP
+        name: diff_IP
         format: number
         
       - type: TextBox

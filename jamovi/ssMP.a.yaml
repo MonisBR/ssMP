@@ -42,7 +42,7 @@ options:
     default: media
     
 #UNA MEDIA - e, S, NC    
-  - name: e_OM
+  - name: precision_OM
     title: Precision
     type: Number
     default: 1
@@ -61,7 +61,7 @@ options:
     max: 0.9999
 
 #UNA PROPORCIÓN - e, P, NC
-  - name: e_OP
+  - name: precision_OP
     title: Precision
     type: Number
     default: 0.05
@@ -83,7 +83,7 @@ options:
     max: 0.9999
 
 #INDEPENDEN PROPORTIONS - NC, potencia, diferencia, P1, P2
-  - name: pow_IP
+  - name: power_IP
     title: Statistical power
     type: Number
     default: 0.85
@@ -97,7 +97,7 @@ options:
     min: 0.0001
     max: 0.9999
 
-  - name: dif_IP
+  - name: diff_IP
     title: Minimum detectable difference
     type: Number
     default: 0.05
@@ -126,14 +126,14 @@ options:
     min: 0.0001
     max: 0.9999
 
-  - name: pow_IM
+  - name: power_IM
     title: Statistical power
     type: Number
     default: 0.85
     min: 0.0001
     max: 0.9999
 
-  - name: dif_IM
+  - name: diff_IM
     title: Minimum detectable difference
     type: Number
     default: 1
@@ -150,21 +150,21 @@ options:
     default: 1
 
 #INDEPENDENT MEANS - NC, potencia, diferencia, SC
-  - name: level_PM
+  - name: level_IMSC
     title: Confidence level
     type: Number
     default: 0.95
     min: 0.0001
     max: 0.9999
 
-  - name: pow_PM
+  - name: power_IMSC
     title: Statistical power
     type: Number
     default: 0.85
     min: 0.0001
     max: 0.9999
     
-  - name: dif_PM
+  - name: diff_IMSC
     title: Minimum detectable difference
     type: Number
     default: 1
